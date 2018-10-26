@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BBE13D39-6A7D-47B3-A0EF-7BF37EF3B127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{F8BBCE4F-43D9-4ACB-9E15-3A562F6C9BD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{F52ED305-6D45-4907-848A-5948B0644776}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventCatalogAPI", "EventCatalogAPI\EventCatalogAPI.csproj", "{013F6129-CF7A-42CA-BACB-D55818A5CFCD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D2BD4AC5-F197-47EB-8FF6-E6B091594B4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{013F6129-CF7A-42CA-BACB-D55818A5CFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013F6129-CF7A-42CA-BACB-D55818A5CFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013F6129-CF7A-42CA-BACB-D55818A5CFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013F6129-CF7A-42CA-BACB-D55818A5CFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BD4AC5-F197-47EB-8FF6-E6B091594B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BD4AC5-F197-47EB-8FF6-E6B091594B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BD4AC5-F197-47EB-8FF6-E6B091594B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BD4AC5-F197-47EB-8FF6-E6B091594B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8BBCE4F-43D9-4ACB-9E15-3A562F6C9BD6} = {BBE13D39-6A7D-47B3-A0EF-7BF37EF3B127}
+		{F52ED305-6D45-4907-848A-5948B0644776} = {BBE13D39-6A7D-47B3-A0EF-7BF37EF3B127}
+		{013F6129-CF7A-42CA-BACB-D55818A5CFCD} = {F8BBCE4F-43D9-4ACB-9E15-3A562F6C9BD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1012F75-245A-4577-B52C-7D25BBF6ACFB}
+	EndGlobalSection
+EndGlobal
